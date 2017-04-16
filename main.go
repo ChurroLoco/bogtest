@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"boggle"
+	"github.com/churroloco/boggle"
 )
 
 func main() {

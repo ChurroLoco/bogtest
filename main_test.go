@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"boggle"
+	"github.com/churroloco/boggle"
 )
 
 const TestDictionary = `entry
