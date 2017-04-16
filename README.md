@@ -11,6 +11,19 @@
 go get github.com/churroloco/bogtest
 ```
 
+## Usage
+```
+boggletest <dictionary_filename> <board_filename> <output_filename>
+```
+
+## Using Sample Data
+```
+boggletest \
+$GOPATH/src/github.com/churroloco/boggletest/examples/dictionary.txt \
+$GOPATH/src/github.com/churroloco/boggletest/examples/board_1.txt \
+./output.txt
+```
+
 
  ## Programming Rules:
   1. Any version of Go 1.7 or higher can be used.
