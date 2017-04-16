@@ -1,11 +1,12 @@
 package main
 
 import (
-	"./boggle"
 	"flag"
 	"fmt"
 	"log"
 	"os"
+
+	"boggle"
 )
 
 func main() {

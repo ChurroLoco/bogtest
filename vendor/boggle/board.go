@@ -32,7 +32,7 @@ func (b *Board) ImportFromReader(r io.Reader) error {
 				return fmt.Errorf("Unacceptable character found in board '%c'", rune)
 			}
 			//fmt.Println(string(rune))
-			values = append(values, string(rune))
+			values = append(values, string(unicode.ToLower(rune)))
 			valuesRead++
 			if valuesRead > expectedValueCount {
 				break

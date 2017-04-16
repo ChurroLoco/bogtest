@@ -1,9 +1,10 @@
 package main
 
 import (
-	"./boggle"
 	"strings"
 	"testing"
+
+	"boggle"
 )
 
 const TestDictionary = `entry
