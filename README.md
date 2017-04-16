@@ -6,6 +6,12 @@
  ## Submission Notes
  - Tested in Go version 'go1.7.4 darwin/amd64'
 
+## Installation
+```
+go get github.com/churroloco/bogtest
+```
+
+
  ## Programming Rules:
   1. Any version of Go 1.7 or higher can be used.
      A. Please document which version was used.
